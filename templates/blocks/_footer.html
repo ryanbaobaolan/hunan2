@@ -1,0 +1,43 @@
+<div class="footer">
+    <div class="c">
+        <div class="friend-link">
+            <a href="">
+               <img src="img/index-logo1.jpg" alt="">
+               中国科学技术协会
+            </a>
+            <a href="">
+               <img src="img/index-logo2.jpg" alt="">
+               湖南省科学技术协会
+            </a>
+            <a href="">
+               <img src="img/index-logo3.jpg" alt="">
+               中国化学会
+            </a>
+            <a href="">
+               <img src="img/index-logo4.jpg" alt="">
+               中国化工学会
+            </a>
+            <a href="">
+               <img src="img/index-logo5.jpg" alt="">
+               精细化工中间体
+            </a>
+        </div>
+    </div>
+    <p class="copyright">
+        湖南省化学化工学会&nbsp;&nbsp;版权所有 
+    </p>
+</div>
+<script src="js/jquery.1.11.3.min.js"></script>
+<script>
+    $('.nav-one-class li').has('ul').mouseenter(function(){
+        $(this).children('ul').show();
+        $(this).children('a').addClass('hover');
+    }).mouseleave(function(){
+        $(this).children('ul').hide();
+        $(this).children('a').removeClass('hover');
+    });
+    $(document).ready(function(){
+        var h = $('.main-wrap').height();
+        $('.tab').css('height',h)
+    })
+  </script>

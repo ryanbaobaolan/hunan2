@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>demoPage</title>
+<%- include('./blocks/_header-link.html') %>
+</head>
+<body>
+  <div class="cw reg">
+    <%- include('./blocks/_header.html') %>
+    <div class="ad">
+        <div class="c">
+            <a href=""><img src="img/reg_03.png" alt=""></a>
+        </div>
+    </div>
+    <div class="main-wrap ">
+        <div class="c cb">
+            <div class="tab">
+                <div class="tab-wrap">
+                    <h1 class="title">会员中心<span>LOGIN</span></h1>
+                    <ul class="tab-item">
+                        <li><a href="" class="hover">学会章程</a> <span class="tab-arr"></span></li>
+                        <li><a href="" >我要注册</a></li>
+                        <li><a href="" >权利和义务</a></li>
+                        <li><a href="" >组织结构</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <p class="bread-crumb cb">
+                    <a href="">首页&nbsp;|&nbsp;</a>
+                    <a href="">会员中心&nbsp;|&nbsp;</a>
+                    <a href="">登录</a>
+                </p>
+                <h3 class="title-infor f30">欢迎登录会员中心</h3>
+                <table class="reg-table mb40">
+                    <tr>
+                        <td class="tr">邮箱地址：</td>
+                        <td>
+                            <input type="text" class="control1">
+                            <span class="c96">*</span> 
+                            <span class="tip">您的E-mail地址将作为登录名使用</span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="tr">密   码：</td>
+                        <td>
+                            <input type="text" class="control1">
+                            <span class="c96">*</span> 
+                            <span class="tip">您的E-mail地址将作为登录名使用</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tr">验证码：</td>
+                        <td>
+                            <input type="text" class="control2">
+                            <span class="c96">*</span>&nbsp;&nbsp;
+                            <img src="img/reg_11.png" alt="" class="vm">&nbsp;&nbsp;
+                            <a class="cgreen" href="">更换一个</span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="tr"></td>
+                        <td class="pr">
+                            <a href="" class="btn-blue-l">提  交</a>&nbsp;&nbsp;
+                            <div class="pa" style="top:45px;left:230px;">
+                                <a href="" class="cred ">·还有没有<span class="cblue">注册</span>?</a>&nbsp;&nbsp;
+                                <a href="" class="cred ">·忘记密码怎么办？</a>
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+     <%- include('./blocks/_footer.html') %>
+</div>
+</body>
+</html>               
